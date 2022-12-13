@@ -1,1 +1,2 @@
-# A repository for studies
+# A repository for studies :notebook:
+
