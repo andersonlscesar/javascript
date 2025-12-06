@@ -1,0 +1,102 @@
+# ============================
+# Node / JavaScript geral
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache dos gerenciadores
+.pnpm-store/
+.bun/
+.bun-install/
+.bun-node/
+.npm/
+.yarn/
+.cache/
+
+# ============================
+# Arquivos do sistema
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Ambiente / Configuração
+# ============================
+.env
+.env.local
+.env.*.local
+*.env
+*.local
+
+# ============================
+# Builds / Produção
+# ============================
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+tmp/
+temp/
+.vite/
+coverage/
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================
+# Testes
+# ============================
+coverage/
+.nyc_output/
+
+# ============================
+# Editor / IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# Monorepo ferramentas
+# ============================
+.nx/
+turbo/
+.turbo/
+lerna-debug.log
+
+# ============================
+# SO / Execução
+# ============================
+*.pid
+*.pid.lock
+
+# ============================
+# Browsers
+# ============================
+*.pem
+
+# ============================
+# TypeScript
+# ============================
+*.tsbuildinfo
+
+# ============================
+# Outros
+# ============================
+*.log
+*.bak
+*.tmp
+*.temp

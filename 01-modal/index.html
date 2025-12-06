@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/css/output.css">
+    <title>Modal</title>
+</head>
+<body class="h-screen">
+    <div class="mx-auto max-w-7xl p-4 sm:p-6 lg:p-8 flex justify-center items-center h-screen lg:text-sm">
+        <button class="bg-gray-900 py-3 px-5 text-white rounded-2xl" type="button">Open Modal</button>
+    </div>
+
+    <!--Modal-->
+    <div class="absolute  flex justify-center items-center top-0 left-0 h-screen w-screen bg-gray-900/65 px-4">
+        <div class="relative min-h-96 w-xs bg-white rounded-2xl flex justify-center items-center flex-col gap-2 px-4 pt-15 pb-10 sm:w-sm lg:w-lg">
+            <button class="absolute top-4 right-5 size-3 bg-cover bg-[url(/src/assets/img/close.png)] bg-no-repeat bg-center" type="button"></button>
+            <!--img-->
+            <div class="flex w-full mb-10 justify-evenly">
+                <img class="object-cover h-15" src="src/assets/img/app-store.png" alt="App store icon">
+                <img class="object-cover h-15" src="src/assets/img/google-calendar.png" alt="Google calendar icon">
+            </div>
+            <h1 class="text-2xl text-center">Calendar Access Needed</h1>
+            <p class="text-center text-gray-700">Hey, we noticed you haven't granted Aspect Access to your calendar events yet. Click bellow to enable access and start capturing interviews</p>
+            <button type="button" class="bg-gray-950 text-white px-5 py-3 rounded-2xl cursor-pointer mt-6 mb-2">Allow Access to my Calendar</button>
+            <button type="button" class="cursor-pointer text-gray-600">Not Now</button>
+        </div>
+    </div>
+</body>
+</html>
